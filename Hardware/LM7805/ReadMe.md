@@ -6,13 +6,40 @@ El LM7805 es un regulador de voltaje lineal de tres terminales que proporciona u
 
 ## Características
 
-Salida: 5V (±2% de tolerancia).
+**Voltaje de Entrada (VI)**
 
-Entrada: 7V a 35V (típicamente 9V a 12V).
+Para VO = 5V a 18V: 35V
 
-Corriente de salida: Hasta 1A (dependiendo del modelo y la disipación térmica).
+Para VO = 24V: 40V
 
-Regulación: Regulador de voltaje lineal, lo que significa que la energía no se convierte en energía de conmutación, pero tiene menos eficiencia en comparación con reguladores conmutados.
+**Corriente de Salida (IO)**
+
+Hasta 1A
+
+**Voltaje de Salida (VO)**
+
+4.75V a 5.25V (con 5.0mA ≤ IO ≤ 1.0A, PO ≤ 15W)
+
+Típicamente 5.0V a 25°C
+
+**Regulación de Línea (Regline)**
+
+VI = 8V a 12V: -1.6 mV a 50 mV
+
+**Regulación de Carga (Regload)**
+
+IO = 5mA a 1.5A: -9 mV a 100 mV
+
+IO = 250mA a 750mA: -4 mV a 50 mV
+
+**Caída de Voltaje (VDrop)**
+
+IO = 1A, TJ = +25°C: -2V
+
+**Rango de Temperatura**
+
+Temperatura de Operación (TOPR): 0°C a +125°C
+
 
 ## Funcionamiento
 
