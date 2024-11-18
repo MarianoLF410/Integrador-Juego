@@ -4,6 +4,37 @@
 
 El encoder rotativo es un dispositivo de entrada ampliamente utilizado para controlar sistemas electrónicos. Funciona generando dos señales cuadradas (canales A y B) que permiten determinar el sentido de giro y el número de pasos. Adicionalmente, incluye un pulsador para implementar funcionalidades adicionales.
 
+## Características
+
+Tipo: Encoder incremental y absoluto.
+
+Tamaño del Eje: 11 mm.
+
+Número de Pulsos: 20pulsos
+
+Vida Útil:
+15,000 ciclos para la mayoría de los modelos.
+
+Torque: Entre 1.5 y 12 mN·m, dependiendo del modelo.
+
+Switch de Presión: Con función de switch de presión (viaje de 1.5 mm).
+
+Voltaje de Operación: 5V DC.
+
+Corriente de Operación: 10 mA.
+
+Conectividad: Terminales de salida A y B, con señal proporcional a la diferencia de fase.
+
+Especificaciones Adicionales
+
+Temperatura de Operación: -40 °C a +85 °C.
+
+Rango de Humedad: 90-95% RH a 60 °C.
+
+Resistencia a la Insulación: Mínimo 100 MΩ a 250V DC.
+
+Protección: A prueba de voltaje de 300V AC durante 1 minuto.
+
 ## Funcionamiento
 
 Generación de Señales:
