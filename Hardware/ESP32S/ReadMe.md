@@ -6,21 +6,57 @@ El ESP32S es un módulo de microcontrolador avanzado que combina conectividad Wi
 
 ## Características Clave
 
-Procesador Dual-Core:
-Integra dos núcleos Xtensa® LX6 de 32 bits con frecuencias ajustables de 80 a 240 MHz.
-Incluye un coprocesador de bajo consumo que permite monitorear periféricos en modo de reposo.
+Módulo: ESP-32S
 
-Memoria Integrada:
-448 KB de ROM y 520 KB de SRAM para instrucciones y datos.
-Memoria RTC para almacenamiento en modos de baja energía.
+Tipo: MCU Wi-Fi-BT-BLE
 
-Conectividad:
-Compatible con Wi-Fi 802.11 b/g/n y Bluetooth 4.2 (BR/EDR y BLE).
-Admite modos de operación como estación, punto de acceso y combinaciones de ambos.
+CPU y Memoria Interna
+Microprocesadores: 2 núcleos Xtensa® 32-bit LX6
 
-Interfaces Periféricas: 
-Incluye ADC, DAC, GPIO, I2C, SPI, UART, PWM, sensores táctiles capacitivos, entre otros.
-Soporte para tarjetas SD y conexiones Ethernet.
+Memoria:
+448 KBytes ROM - 
+520 KBytes SRAM - 
+8 KBytes SRAM en RTC (accesible durante el modo de sueño profundo) - 
+1 Kbit de EFUSE (configuración del sistema y aplicaciones del cliente) - 
 
-Consumo Eficiente de Energía:
-Múltiples modos de energía: activo, reposo ligero, reposo profundo e hibernación.
+Conectividad
+
+Wi-Fi: 802.11 b/g/n/d/e/i/k/r (hasta 150 Mbps)
+
+Bluetooth: v4.2 BR/EDR y BLE
+
+Rango de frecuencia: 2.4GHz - 2.5GHz
+
+Consumo de Energía
+
+Modos de potencia:
+
+Activo: 160 - 260 mA
+
+Modem-sleep: 5 - 20 mA
+
+Light-sleep: 0.8 mA
+
+Deep-sleep: 0.15 mA
+
+Hibernación: 2.5 µA
+
+Interfaz de Periféricos
+
+GPIO: 38 pines, incluyendo ADC, DAC, PWM, I2C, UART, I2S, y más.
+
+Sensores: Sensores de toque capacitivos y amplificadores de bajo ruido.
+
+Características del Radio
+
+Wi-Fi:
+
+Potencia de salida: 15.5 - 21.5 dBm
+
+Sensibilidad: hasta -98 dBm
+
+Bluetooth LE:
+
+Sensibilidad: -98 dBm
+
+Potencia de transmisión: hasta +10 dBm
