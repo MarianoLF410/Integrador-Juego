@@ -39,7 +39,7 @@ Protección: A prueba de voltaje de 300V AC durante 1 minuto.
 
 Generación de Señales:
 
-El encoder produce dos señales cuadradas (canales A y B) desfasadas 90 grados entre sí (Código Gray de 2 bits). Este desfase permite identificar la dirección de rotación:
+El encoder produce dos señales cuadradas (canales A y B) desfasadas 90 grados entre sí [(Código Gray de 2 bits)](https://angelmicelti.github.io/4ESO/EDI/cdigo_gray.html). Este desfase permite identificar la dirección de rotación:
 Sentido horario (CW): A lidera a B.
 Sentido antihorario (CCW): B lidera a A.
 La señal se genera al girar el eje, y cada ciclo completo (un paso A y B) representa un pulso.
