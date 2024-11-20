@@ -10,7 +10,7 @@ Tipo de Display: LCD de 20 caracteres por 4 líneas.
 
 Compatibilidad: Compatible con placas Arduino y otros controladores con bus I2C.
 
-Tipo de Visualización: Texto negro sobre fondo amarillo-verde.
+Tipo de Visualización: Texto negro sobre fondo azul.
 
 Dirección I2C: Rango de 0x38 a 0x3F (0x3F por defecto).
 
